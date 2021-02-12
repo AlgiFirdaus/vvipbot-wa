@@ -258,7 +258,8 @@ if (text.includes('.Owner')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
 if (text.includes('.owner')){
-conn.sendMessage(id, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: m } )
+conn.sendMessage(id, {displayname: "Algi
+", vcard: vcard}, MessageType.contact, { quoted: m } )
 }
 
   //Ganti nama grup
